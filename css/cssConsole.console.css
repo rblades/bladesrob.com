@@ -1,0 +1,62 @@
+.cssConsole {
+font-size: 1em;
+position:relative;
+font-family: monospace, sans-serif;
+background: #000000;
+color: #21f838;
+padding: 5px;
+overflow: hidden;
+height: 17px;
+cursor:text;
+line-height:17px;
+max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  .cssConsole {
+    max-width: 300px;
+  }
+}
+
+.cssConsoleDisplay {
+float: left; 
+padding-left: 3px;
+white-space: pre;
+}
+
+.cssConsoleInput {
+position:absolute;
+left:0px;
+top:-30px;
+opacity: 0; 
+filter:alpha(opacity=0);
+} 
+
+.cssConsoleCursor {
+float: left;
+background: #21f838;
+width:8px;
+height:17px;
+margin:0;
+padding:0;
+padding-right:1px;
+padding-left:1px;
+visibility: hidden;
+}
+
+.cssConsoleDisplay span.selected {
+background: #21f838;
+color: #000000;	
+}
+
+.cssConsoleDisplay span {
+height:17px;
+line-height:17px;
+color: #21f838;	
+margin:0;
+padding:0;
+padding-right:1px;
+padding-left:1px;
+height:17px;
+line-height:17px;
+}

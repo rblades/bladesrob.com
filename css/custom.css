@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'sevastopol_interfaceregular';
+    src: url('../fonts/sevastopol-interface-webfont.eot');
+    src: url('../fonts/sevastopol-interface-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sevastopol-interface-webfont.woff2') format('woff2'),
+         url('../fonts/sevastopol-interface-webfont.woff') format('woff'),
+         url('../fonts/sevastopol-interface-webfont.ttf') format('truetype'),
+         url('../fonts/sevastopol-interface-webfont.svg#sevastopol_interfaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'electronic_highway_signRg';
+    src: url('../fonts/electronic_highway_sign-webfont.eot');
+    src: url('../fonts/electronic_highway_sign-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/electronic_highway_sign-webfont.woff2') format('woff2'),
+         url('../fonts/electronic_highway_sign-webfont.woff') format('woff'),
+         url('../fonts/electronic_highway_sign-webfont.ttf') format('truetype'),
+         url('../fonts/electronic_highway_sign-webfont.svg#electronic_highway_signRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+background: #000000;
+font-family: monospace, sans-serif;
+font-size: 1.2em;
+overflow-y:hidden;
+}
+
+.container {
+margin: 50px auto;
+height: 600px;
+max-width: 950px;
+position:relative;
+border:1px solid #fefefe;
+}
+
+.scroll {
+margin: 50px auto;
+height: 400px;
+width: 950px;
+position:absolute;
+border:hidden;
+overflow:scroll;
+}
+
+#input {
+width: 910px;
+display:inline-block;
+position:relative;
+float:left;
+}
+
+.bottom {
+position:absolute;
+bottom:2px;
+width: 100%;
+}
+
+@media (max-width: 600px) {
+.bottom {
+position:absolute;
+bottom:35px;
+max-width: 100%; }
+}
+
+.label {
+width: 30px;
+position: relative;
+left: 15px;
+color: #21f838;
+float:left;
+}
+
+.console {
+position: absolute;
+bottom: 35px;
+}
+
+@media (max-width: 600px) {
+.console {
+position: absolute;
+bottom: 70px; }
+}
+
+.white {
+color: #21f838;
+}
+
+.blue {
+color: #81bbd5;
+}
+
+.green {
+    color: #21f838;
+}
+
+.line {
+margin-left: 15px;
+margin-bottom:2px;
+}
+
+@media (max-width: 600px) {
+    .line {
+        max-width: 300px;
+    }
+}
+
+.margin {
+margin-left: 40px;
+margin-bottom:2px;
+}
+
+a {
+    color: #81bbd5;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    color: #81bbd5;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: #21f838;
+    font-size: 1.5em;
+    font-family: 'electronic_highway_signRg';
+    margin-top:75px;
+}
